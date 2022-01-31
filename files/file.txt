@@ -1,0 +1,10 @@
+Git command line trace steps:👇 
+
+$ git clone ..copy http..
+$ cd ..repository-name..
+$ git checkout -b create-new-branch
+$ git add index.html style.css
+$ git commit -m "Create HTML and CSS files"
+$ git push origin create-new-branch
+$ git checkout main
+$ git pull origin main
